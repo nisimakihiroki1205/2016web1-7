@@ -15,6 +15,7 @@ header{
   left:0;
   top:0;
   width:100%;
+  z-index:+1;
 }
 .box{
   background-color:red;
@@ -52,4 +53,10 @@ aside{
 footer{
   background-color:purple;
   clear:both;
+}
+#kenn_pic{
+  width:24px;
+  position:absolute;
+  left:50px;
+  top:50px;
 }
